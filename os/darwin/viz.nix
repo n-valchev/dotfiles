@@ -1,0 +1,3 @@
+{...}: {
+  services.jankyborders.blacklist = ["kitty"];
+}
