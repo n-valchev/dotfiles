@@ -1,5 +1,6 @@
 {
   nix-darwin,
+  home-manager,
   username,
   hostname,
   ...
@@ -7,6 +8,7 @@
   darwinConfigurations."${hostname}" = nix-darwin.lib.darwinSystem {
     system = "aarch64-darwin";
     modules = [
+      home-manager.darwinModules.home-manager
       ./darwin-conf.nix
     ];
     specialArgs = {

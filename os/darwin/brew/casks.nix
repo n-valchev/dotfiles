@@ -1,1 +1,21 @@
-[]
+[
+  "1password"
+  "calibre"
+  "discord"
+  "docker"
+  "exodus"
+  "gimp"
+  "google-chrome"
+  "itsycal"
+  "karabiner-elements"
+  "kitty"
+  "numi"
+  "postman"
+  "rectangle"
+  "redis-insight"
+  "scroll-reverser"
+  "slack"
+  "spotify"
+  "visual-studio-code"
+  "vlc"
+]

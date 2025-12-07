@@ -20,6 +20,7 @@ in {
   security.pam.services.sudo_local.touchIdAuth = true;
 
   users.users.${username} = {
+    home = "/Users/${username}";
     name = username;
     packages = myPackages.user;
   };
@@ -30,5 +31,16 @@ in {
     ./environment.nix
     ./homebrew.nix
     ./viz.nix
+    {
+      home-manager = {
+        useGlobalPkgs = true;
+        useUserPackages = true;
+        users.${username} = {
+          imports = [
+            ../../home-manager
+          ];
+        };
+      };
+    }
   ];
 }

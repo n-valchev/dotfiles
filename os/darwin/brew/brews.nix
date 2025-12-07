@@ -1,1 +1,13 @@
-[]
+[
+  "borders"
+  "cmake"
+  "ffmpeg"
+  "ffmpeg@6"
+  "fzf"
+  "gh"
+  "helm"
+  "huggingface-cli"
+  "neovim"
+  "sshpass"
+  "tree-sitter"
+]
