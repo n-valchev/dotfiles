@@ -9,6 +9,7 @@
     systemPath = ["/opt/homebrew/bin"];
     variables = {
       EDITOR = "vi";
+      LANG = "en_US.UTF-8";
     };
   };
 }

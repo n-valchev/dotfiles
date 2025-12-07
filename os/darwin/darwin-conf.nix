@@ -13,8 +13,7 @@ in {
   # allow private/licensed/unfree apps
   nixpkgs.config.allowUnfree = true;
 
-  nix.settings = {trusted-users = ["root" "@admin" "${username}"];};
-  nix.enable = true;
+  nix.enable = false; # Let Determinate Nix manage Nix
 
   programs.zsh.enable = true;
 
@@ -27,9 +26,9 @@ in {
 
   imports = [
     ../../config
+    ./system.nix
     ./environment.nix
     ./homebrew.nix
-    ./system.nix
     ./viz.nix
   ];
 }
