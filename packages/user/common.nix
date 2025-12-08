@@ -5,6 +5,7 @@ with pkgs; [
   bat
   direnv
   git-lfs
+  jump
   lazygit
   nixfmt-classic
   nix-search-cli
