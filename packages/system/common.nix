@@ -8,6 +8,7 @@ with pkgs; [
   killall
   less
   links2
+  starship
   tree
   vim
   wget
