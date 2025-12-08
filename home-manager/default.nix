@@ -4,5 +4,6 @@
   imports = [
     ./kitty
     ./tmux
+    ./zsh
   ];
 }

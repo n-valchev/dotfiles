@@ -29,7 +29,6 @@ in {
     ../../config
     ./system.nix
     ./environment.nix
-    ./homebrew.nix
     ./viz.nix
     {
       home-manager = {
@@ -42,5 +41,6 @@ in {
         };
       };
     }
+    ./homebrew.nix
   ];
 }
