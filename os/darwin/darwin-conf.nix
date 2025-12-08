@@ -28,6 +28,7 @@ in {
   imports = [
     ../../config
     ./system.nix
+    ./homebrew.nix
     ./environment.nix
     ./viz.nix
     {
@@ -41,6 +42,5 @@ in {
         };
       };
     }
-    ./homebrew.nix
   ];
 }
