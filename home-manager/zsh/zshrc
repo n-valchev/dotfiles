@@ -1,3 +1,4 @@
 source ~/.zshrc-local
 
 eval "$(starship init zsh)"
+eval "$(jump shell)"

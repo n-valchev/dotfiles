@@ -5,12 +5,12 @@ with pkgs; [
   bat
   direnv
   git-lfs
+  jump
   lazygit
   nixfmt-classic
   nix-search-cli
   ripgrep
   sops
-  starship
   tmux
   unzip
   uv
