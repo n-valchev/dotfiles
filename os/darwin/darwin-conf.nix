@@ -17,8 +17,6 @@ in {
 
   programs.zsh.enable = true;
 
-  security.pam.services.sudo_local.touchIdAuth = true;
-
   users.users.${username} = {
     home = "/Users/${username}";
     name = username;
@@ -27,6 +25,7 @@ in {
 
   imports = [
     ../../config
+    ./security.nix
     ./system.nix
     ./homebrew.nix
     ./environment.nix

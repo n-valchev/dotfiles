@@ -11,7 +11,6 @@ with pkgs; [
   nix-search-cli
   ripgrep
   sops
-  tmux
   unzip
   uv
   watch
