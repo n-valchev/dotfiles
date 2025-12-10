@@ -29,7 +29,6 @@ in {
     ./system.nix
     ./homebrew.nix
     ./environment.nix
-    ./viz.nix
     {
       home-manager = {
         useGlobalPkgs = true;

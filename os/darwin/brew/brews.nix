@@ -1,5 +1,4 @@
 [
-  "borders"
   "cmake"
   "ffmpeg"
   "ffmpeg@6"

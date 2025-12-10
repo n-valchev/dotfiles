@@ -1,3 +1,2 @@
 [
-  "FelixKratz/formulae"
 ]
