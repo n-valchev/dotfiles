@@ -3,7 +3,6 @@
   "calibre"
   "discord"
   "docker"
-  "exodus"
   "gimp"
   "google-chrome"
   "itsycal"

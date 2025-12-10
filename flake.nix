@@ -20,16 +20,13 @@
     };
   };
 
-  outputs = {self, ...} @ inputs: {
-    inherit
-      (
-        import ./os/darwin (inputs
-          // {
-            username = "nivalchev";
-            hostname = "nivalchev";
-          })
-      )
-      darwinConfigurations
-      ;
+  outputs = inputs@{self, ...}:
+  let darwinHosts = [
+    { username = "nivalchev"; hostname="nivalchev"; }
+    { username = "nikolay.valchev"; hostname="C7M3KM993X-Nikolay-Ivov-Valchev"; }
+  ];
+  in
+  {
+    darwinConfigurations = import ./os/darwin (inputs // { hosts=darwinHosts; });
   };
 }
