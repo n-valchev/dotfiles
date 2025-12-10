@@ -8,7 +8,6 @@ with pkgs; [
   killall
   less
   links2
-  starship
   tmux
   tree
   vim
