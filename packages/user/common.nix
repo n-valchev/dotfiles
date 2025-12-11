@@ -4,6 +4,9 @@ with pkgs; [
   awscli2
   bat
   direnv
+  go
+  gofumpt
+  gopls
   git-lfs
   jump
   lazygit
