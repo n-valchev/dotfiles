@@ -4,9 +4,15 @@ with pkgs; [
   awscli2
   bat
   direnv
+# go packages {
   go
   gofumpt
   gopls
+# }
+# rust packages {
+  rustc
+  cargo
+# }
   git-lfs
   jump
   lazygit
