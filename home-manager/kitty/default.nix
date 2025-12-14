@@ -1,3 +1,3 @@
-{pkgs, ...}: {
-  xdg.configFile."kitty/kitty.conf".source = ./kitty.conf;
+{mkDotfilesSymlink, ...}: {
+  xdg.configFile."kitty/kitty.conf".source = mkDotfilesSymlink "kitty/kitty.conf";
 }
