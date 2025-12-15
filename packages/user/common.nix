@@ -4,8 +4,12 @@ with pkgs; [
   awscli2
   bat
   direnv
+  gnupg
 # go packages {
   go
+  gofumpt
+  gopls
+#go
   gofumpt
   gopls
 # }
