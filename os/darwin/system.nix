@@ -11,7 +11,7 @@
   };
 
   system.defaults.NSGlobalDomain = {
-    # AppleFontSmoothing = 1
+    AppleFontSmoothing = 0;
     AppleInterfaceStyle = "Dark";
     AppleMeasurementUnits = "Centimeters";
     AppleMetricUnits = 1;
