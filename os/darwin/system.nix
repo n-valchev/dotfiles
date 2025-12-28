@@ -24,7 +24,9 @@
   system.defaults.trackpad = {
     Clicking = false;
     TrackpadRightClick = true;
-    TrackpadThreeFingerDrag = true;
+    TrackpadThreeFingerDrag = false;
+    TrackpadThreeFingerVertSwipeGesture = 2;
+    TrackpadThreeFingerHorizSwipeGesture = 2;
   };
 
   system.defaults.finder = {
@@ -50,6 +52,8 @@
     wvous-br-corner = 2; # enable bottom right hot corner Mission Control
     expose-group-apps = true; # fixes issue with small windows in Expose
     # persistent-apps = [];
+    showMissionControlGestureEnabled = true;
+    showAppExposeGestureEnabled = true;
   };
 
   system.defaults.universalaccess = {
